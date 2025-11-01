@@ -1,0 +1,50 @@
+.alumni-list {
+  padding: 20px;
+}
+
+.company-group {
+  margin-bottom: 40px;
+}
+
+/* Make text dark for better contrast */
+.alumni-card {
+  background: rgba(255, 255, 255, 0.6); /* lighter glass effect */
+  color: #1a1a1a; /* dark text for readability */
+  border-radius: 16px;
+  padding: 20px;
+  margin: 15px 0;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Company title with dark text */
+.company-title {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: #1a1a1a;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  letter-spacing: 0.5px;
+}
+
+/* Inputs and textareas with dark text */
+.alumni-card input,
+.alumni-card textarea {
+  background: rgba(255, 255, 255, 0.9);
+  color: #1a1a1a;
+  border: 1px solid #ccc;
+}
+
+/* Buttons stay vibrant */
+.alumni-card button {
+  background-color: #0077cc;
+  color: #fff;
+}
+
+.alumni-card button:hover {
+  background-color: #005fa3;
+}
